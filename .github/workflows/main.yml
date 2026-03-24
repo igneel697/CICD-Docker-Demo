@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: igneel697/nodeapp 
+          images: igneel697/dockerImage 
           tags: type=raw,value=latest
       
       - name: Build and push Docker image
